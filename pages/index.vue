@@ -1,6 +1,6 @@
 <template>
   <section class="container">
-    Name: <input v-model="sugarcoin.name" /> Price:
+    Name TEST: 123 <input v-model="sugarcoin.name" /> Price:
     <input v-model="sugarcoin.price" />
     <button @click="createSugarCoin">Create Sugar Coin</button>
   </section>
